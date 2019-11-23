@@ -14,7 +14,7 @@ for i in range(len(lists)):
 
 def prinList():
 	for i in range(0,len(lists)):
-		print("%d " % lists[i])
+		print("%d " % lists[i], end='')
 
 
 prinList()
