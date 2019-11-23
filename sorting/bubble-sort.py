@@ -18,3 +18,18 @@ def prinList():
 
 
 prinList()
+print("\n\n")
+print("ANOTHER WAY TO DO BUBBLE SORT")
+
+'''
+	SORTING PROCESS IS HERE
+	OTHER SORTING PROCESS
+'''
+for i in range(len(lists)):
+	for y in range(0, len(lists)):
+		if lists[i] < lists[y]:
+			tmp = lists[i]
+			lists[i] = lists[y]
+			lists[y] = tmp
+	prinList()
+	print("\n")
